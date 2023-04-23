@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+div {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+input {
+  margin-bottom: 2em;
+  font-family: "Raleway", sans-serif;
+  width: 30em;
+  padding: 0.3em;
+  font-size: 18px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  transition: all 0.4s;
+  outline: none;
+}
+input:hover {
+  border-bottom-color: #e74c3c;
+}
+
+button {
+  font-family: "Raleway", sans-serif;
+
+  width: 180px;
+  padding: 0.7em;
+
+  border: none;
+  background: #e74c3c;
+  color: white;
+
+  cursor: pointer;
+
+  font-size: 18px;
+
+  border: 2px solid #333;
+  letter-spacing: 3px;
+  text-align: center;
+
+  transition: all 0.3s;
+}
+button:hover {
+  background: #c0392b;
+}
+#mostrar {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  div,
+  input {
+    width: 325px;
+    display: block;
+    margin: 0 auto;
+  }
+}
